@@ -1,0 +1,22 @@
+import cv2
+import cv2.cv as cv
+import numpy as np
+import random
+import math
+import PIL                  #CAREFUL check if available for the board
+from PIL import Image
+
+
+
+# For scale normalization
+im = 'C:\\Users\\Rahul Nafde\\Desktop\\1.jpg'
+#img = cv.LoadImage('C:\Users\Rahul Nafde\Desktop\color.jpg')
+#cv.NamedWindow("RGB", cv.CV_WINDOW_AUTOSIZE)
+#cv.ShowImage("RGB", img)
+#cv.WaitKey(500)
+#cv.DestroyWindow("RGB")
+
+
+#cv.WaitKey(100000000)
+img = Image.open(im)
+img.show()
